@@ -1,0 +1,60 @@
+/* Theme */
+:root {
+	--bg: #fff;
+	--bg--dark: #ddd;
+	--text: #333;
+	--text--light: #bbb;
+	--a: #2979bb;
+	--a--dark: #396284;
+	--title-text: 'Oswald', sans-serif;
+	--body-text: 'Merriweather', serif;
+}
+
+body {
+	font-family: var(--body-text);
+	font-size: 16px;
+	line-height: 2;
+	padding: 1rem;
+}
+
+/* Main content */
+main {
+	margin: 0 auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+/* Shared */
+a {
+	color: var(--a);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--a--dark);
+	text-decoration: underline;
+} 
+h1, h2 {
+	color: var(--text);
+	font-family: var(--title-text);
+}
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.25;
+	margin: 1rem 0;
+}
+h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1rem;
+}
+.icon {
+	display: inline-block;
+	fill: currentColor;
+	height: 1em;
+	width: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+}
